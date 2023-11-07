@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#root{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-box{
+    background-color: #fbdcba;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+}
+
+.todo{
+    font-weight: 600;
+    padding: 0.5rem;
+    font-size: 30px;
+}
+
+.toggle-button{
+    margin: 0.5rem;
+    padding: 0.2rem;
+}
+
+#add-button{
+    margin: 0.5rem;
+}
